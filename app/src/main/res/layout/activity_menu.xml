@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_img"
+    tools:context=".MenuActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="900dp"
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_margin="8dp"
+                        android:layout_weight="3"
+                        app:cardBackgroundColor="#2BB2AD"
+                        app:cardCornerRadius="18dp">
+
+                        <LinearLayout
+                            android:id="@+id/math1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:clickable="true"
+                            android:orientation="vertical"
+                            android:padding="14dp">
+
+                            <TextView
+                                android:text="Algebra"
+                                android:textSize="20sp"
+                                style="@style/text" />
+                            <TextView
+                                android:text="mathematic fundamentals "
+                                android:textSize="12sp"
+                                style="@style/text" />
+
+                            <Space
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="10dp"
+                                android:src="@drawable/ic_math"/>
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_margin="8dp"
+                        android:layout_weight="2"
+                        app:cardBackgroundColor="#6F7BF0"
+                        app:cardCornerRadius="18dp">
+
+                        <LinearLayout
+                            android:id="@+id/math3"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:clickable="true"
+                            android:orientation="vertical"
+                            android:padding="14dp">
+
+                            <TextView
+                                android:text="Physic"
+                                android:textSize="20sp"
+                                style="@style/text" />
+                            <TextView
+                                android:text="physic fundamentals"
+                                android:textSize="12sp"
+                                style="@style/text" />
+
+                            <Space
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="10dp"
+                                android:src="@drawable/ic_physics"/>
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_margin="8dp"
+                        android:layout_weight="3"
+                        app:cardBackgroundColor="#2BB2AD"
+                        app:cardCornerRadius="18dp">
+                        <LinearLayout
+                            android:id="@+id/math5"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:clickable="true"
+                            android:orientation="vertical"
+                            android:padding="14dp">
+
+                            <TextView
+                                android:text="Astronomy"
+                                android:textSize="20sp"
+                                style="@style/text" />
+                            <TextView
+                                android:text="astronomic fundamentals"
+                                android:textSize="12sp"
+                                style="@style/text" />
+
+                            <Space
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="10dp"
+                                android:src="@drawable/ic_telescope"/>
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_margin="8dp"
+                        android:layout_weight="2"
+                        app:cardBackgroundColor="#6F7BF0"
+                        app:cardCornerRadius="18dp">
+                        <LinearLayout
+                            android:id="@+id/math8"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:clickable="true"
+                            android:orientation="vertical"
+                            android:padding="14dp">
+
+                            <TextView
+                                android:text="About us"
+                                android:textSize="20sp"
+                                style="@style/text" />
+
+                            <Space
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="10dp"
+                                android:src="@drawable/ic_info"/>
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_margin="8dp"
+                        android:layout_weight="2"
+                        app:cardBackgroundColor="#E9756B"
+                        app:cardCornerRadius="18dp">
+                        <LinearLayout
+                            android:id="@+id/math2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:clickable="true"
+                            android:orientation="vertical"
+                            android:padding="14dp">
+
+                            <TextView
+                                android:text="Biology"
+                                android:textSize="20sp"
+                                style="@style/text" />
+                            <TextView
+                                android:text="biologic fundamentals"
+                                android:textSize="12sp"
+                                style="@style/text" />
+
+                            <Space
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="10dp"
+                                android:src="@drawable/ic_biology"/>
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_margin="8dp"
+                        android:layout_weight="3"
+                        app:cardBackgroundColor="#F6AC56"
+                        app:cardCornerRadius="18dp">
+                        <LinearLayout
+                            android:id="@+id/math4"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:clickable="true"
+                            android:orientation="vertical"
+                            android:padding="14dp">
+
+                            <TextView
+                                android:text="Geography"
+                                android:textSize="20sp"
+                                style="@style/text" />
+                            <TextView
+                                android:text="geographic fundamentals"
+                                android:textSize="12sp"
+                                style="@style/text" />
+
+                            <Space
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="10dp"
+                                android:src="@drawable/ic_earth_globe"/>
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_margin="8dp"
+                        android:layout_weight="2"
+                        app:cardBackgroundColor="#E9756B"
+                        app:cardCornerRadius="18dp">
+                        <LinearLayout
+                            android:id="@+id/math6"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:clickable="true"
+                            android:orientation="vertical"
+                            android:padding="14dp">
+
+                            <TextView
+                                android:text="English"
+                                android:textSize="20sp"
+                                style="@style/text" />
+                            <TextView
+                                android:text="english"
+                                android:textSize="12sp"
+                                style="@style/text" />
+
+                            <Space
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="10dp"
+                                android:src="@drawable/ic_bus" />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_margin="8dp"
+                        android:layout_weight="3"
+                        app:cardBackgroundColor="#F6AC56"
+                        app:cardCornerRadius="18dp">
+                        <LinearLayout
+                            android:id="@+id/math7"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:clickable="true"
+                            android:orientation="vertical"
+                            android:padding="14dp">
+
+                            <TextView
+                                android:text="Capitals"
+                                android:textSize="20sp"
+                                style="@style/text" />
+                            <TextView
+                                android:text="find capital"
+                                android:textSize="12sp"
+                                style="@style/text" />
+
+                            <Space
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="10dp"
+                                android:src="@drawable/ic_government"/>
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

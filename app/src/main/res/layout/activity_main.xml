@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bg_img"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <TextView
+            style="@style/text"
+            android:text="Questions "
+            android:textSize="20sp"/>
+        <Space
+            android:layout_width="8dp"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/number"
+            style="@style/text"
+            android:text="1/8"
+            android:textSize="18sp" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+        <Chronometer
+            android:id="@+id/chronometer"
+            style="@style/text"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/question_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#669974BD"
+        app:cardCornerRadius="18dp"
+        app:cardUseCompatPadding="true">
+
+        <TextView
+            style="@style/text"
+            android:id="@+id/question"
+            android:gravity="center"
+            android:padding="12dp"
+            android:text="O'zbekiston Respublikasi Mustaqillikga nechanchi yilda erishgan?"
+            android:textSize="24sp" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        app:cardBackgroundColor="#669974BD"
+        app:cardCornerRadius="18dp"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:id="@+id/btn1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?selectableItemBackground"
+            android:gravity="center_vertical"
+            android:clickable="true"
+            android:padding="8dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_unchecked"/>
+
+            <TextView
+                android:layout_marginHorizontal="8dp"
+                style="@style/text"
+                android:text="variant1" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        app:cardUseCompatPadding="true"
+        app:cardBackgroundColor="#669974BD"
+        app:cardCornerRadius="18dp">
+
+        <LinearLayout
+            android:id="@+id/btn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?selectableItemBackground"
+            android:gravity="center_vertical"
+            android:clickable="true"
+            android:padding="8dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_unchecked" />
+
+            <TextView
+                android:layout_marginHorizontal="8dp"
+                style="@style/text"
+                android:text="variant1" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        app:cardUseCompatPadding="true"
+        app:cardBackgroundColor="#669974BD"
+        app:cardCornerRadius="18dp">
+
+        <LinearLayout
+            android:id="@+id/btn3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?selectableItemBackground"
+            android:gravity="center_vertical"
+            android:clickable="true"
+            android:padding="8dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_unchecked" />
+
+            <TextView
+                android:layout_marginHorizontal="8dp"
+                style="@style/text"
+                android:text="variant1" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        app:cardUseCompatPadding="true"
+        app:cardBackgroundColor="#669974BD"
+        app:cardCornerRadius="18dp">
+
+        <LinearLayout
+            android:id="@+id/btn4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?selectableItemBackground"
+            android:gravity="center_vertical"
+            android:clickable="true"
+            android:padding="8dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_unchecked" />
+
+            <TextView
+                android:layout_marginHorizontal="8dp"
+                style="@style/text"
+                android:text="variant1" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/stop"
+            android:text="stop"
+            style="@style/stopStyle" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/next"
+            style="@style/buttonStyle"
+            android:text="next" />
+    </LinearLayout>
+
+</LinearLayout>
